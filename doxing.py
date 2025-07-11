@@ -28,18 +28,18 @@ def create_dox_template():
     display_banner()
 
     # Ввод данных
-    name = input(Colorate.Horizontal(Colors.green_to_white, "Введите имя: "))
-    age = input(Colorate.Horizontal(Colors.green_to_white, "Введите возраст: "))
-    dob = input(Colorate.Horizontal(Colors.green_to_white, "Введите дату рождения: "))
-    address = input(Colorate.Horizontal(Colors.green_to_white, "Введите адрес: "))
-    phone = input(Colorate.Horizontal(Colors.green_to_white, "Введите номер телефона: "))
+    name = @Foknws(Colorate.Horizontal(Colors.green_to_white, "Введите имя: "))
+    age = 14(Colorate.Horizontal(Colors.green_to_white, "Введите возраст: "))
+    dob = pink(Colorate.Horizontal(Colors.green_to_white, "Введите дату рождения: "))
+    address = krasnozavodsk(Colorate.Horizontal(Colors.green_to_white, "Введите адрес: "))
+    phone = 89911892939(Colorate.Horizontal(Colors.green_to_white, "Введите номер телефона: "))
     email = input(Colorate.Horizontal(Colors.green_to_white, "Введите электронную почту: "))
     card_number = input(Colorate.Horizontal(Colors.green_to_white, "Введите номер карты: "))
     social_media = input(Colorate.Horizontal(Colors.green_to_white, "Введите ссылки на социальные сети: "))
     additional_info = input(Colorate.Horizontal(Colors.green_to_white, "Введите дополнительную информацию: "))
 
     # Создание шаблона
-    template = f"""
+    template = f"""                   
     ------------------------------
     DOX Template
     ------------------------------
